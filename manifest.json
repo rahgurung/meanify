@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Meanify",
+    "version": "0.0.0",
+    "description": "Get meaning of any word on webpage",
+    "action": {
+        "default_title": "Meanify",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "css": [
+                "popup.css"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

@@ -1,0 +1,16 @@
+.meanify-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+    border-color: black;
+    background: black;
+    color: white;
+    width: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000000;
+}
