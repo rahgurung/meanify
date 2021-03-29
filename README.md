@@ -11,4 +11,4 @@ Slides are available [here](http://bit.ly/QDCEslides).
 
 
 ## Youtube Video
-Will be updated soon.
+Video is available [here](https://www.youtube.com/watch?v=llp9ge7fX5A&ab_channel=ZeneviaTechfest).
