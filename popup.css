@@ -7,10 +7,18 @@
     background: black;
     color: white;
     width: 300px;
-    height: 90px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    z-index: 1000000;
+    z-index: 1000000000;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.meanify-popup-fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
 }

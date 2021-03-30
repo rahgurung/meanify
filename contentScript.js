@@ -13,6 +13,11 @@ document.addEventListener("mouseup", event => {
             let text = document.createTextNode(meaning);
             div.appendChild(text);
             document.body.appendChild(div)
+
+            // Fade Out Div
+            setTimeout(() => {
+                div.classList.add('meanify-popup-fade-out');
+            }, 3000);
         });
     }
 })
