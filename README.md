@@ -1,4 +1,7 @@
 # Meanify
+<p align="center">
+<img src="https://user-images.githubusercontent.com/30543444/113025412-8dd35200-91a5-11eb-9bee-9d721a59fd9c.png" align="center" height=200px>
+</p>
 
 Get the meaning of any text by double-clicking on it.
 

@@ -3,6 +3,11 @@
     "name": "Meanify",
     "version": "0.0.0",
     "description": "Get meaning of any word on webpage",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
     "action": {
         "default_title": "Meanify",
         "default_popup": "popup.html"
